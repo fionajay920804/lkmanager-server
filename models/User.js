@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb+srv://leo:Hechen920804@fionajay920804-nfpvu.azure.mongodb.net/lkmanager?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://leo:Hechen920804@fionajay920804-nfpvu.azure.mongodb.net/lkmanager?retryWrites=true&w=majority',{ useNewUrlParser: true });
 
 const userSchema = mongoose.Schema({
     user_name: {type: String, required: true},

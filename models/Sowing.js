@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-mongoose.connect('mongodb+srv://leo:Hechen920804@fionajay920804-nfpvu.azure.mongodb.net/lkmanager?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://leo:Hechen920804@fionajay920804-nfpvu.azure.mongodb.net/lkmanager?retryWrites=true&w=majority',{ useNewUrlParser: true });
 
 const sowingSchema = mongoose.Schema({
     // 图片的名称
