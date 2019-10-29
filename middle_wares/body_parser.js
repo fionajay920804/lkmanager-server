@@ -1,6 +1,6 @@
 import queryString from 'querystring';
 
-export default (req, res, next)=>{
+export default function(req, res, next){
     // 1. 过滤get请求
     if(req.method.toLowerCase() === 'get'){
        return next();
