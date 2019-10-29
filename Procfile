@@ -1,3 +1,2 @@
-web:node index.js
-web: bundle exec rails server -p 1688
+web: node index.js
 worker: bundle exec rake jobs:work
