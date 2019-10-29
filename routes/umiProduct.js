@@ -215,10 +215,7 @@ router.get('/umi/api/list', (req, res, next) => {
 });
 
 router.post('/umi/api/login', (req,res,next)=>{
-    console.log(1111);
     const {username, password} = req.body;
-    console.log(username, password);
-    console.log(111);
     if (username == "leo" && password == "123") {
         return res.json({
             code: 0,
