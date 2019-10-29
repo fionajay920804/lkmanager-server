@@ -11,22 +11,14 @@ import umiRouter from './../routes/umiProduct'
 import bodyParser from './../middle_wares/body_parser';
 import errorLog from './../middle_wares/error_log';
 
-// 2. 引入模板引擎
-import nunjucks from 'nunjucks';
 
 const app = express();
 
-// 3. 设置模板引擎
-nunjucks.configure(config.viewPath, {
-    autoescape: true,
-    express: app,
-    noCache: true
-});
 
 
 // 4. 配置静态的资源
 app.use(express.static(config.publicPath));
-app.use('/node_modules', express.static(config.node_modules));
+// app.use('/node_modules', express.static(config.node_modules));
 
 // 注意: 一定要走在所有的路由之前
 app.use(bodyParser);

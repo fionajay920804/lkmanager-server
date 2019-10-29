@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22450adc-672b-4a99-9a4b-8b58373e0de9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/aside.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_add_one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_add_three.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_add_two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_category_add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/course_topic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docent_add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docent_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reset_pwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/sowing_add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/sowing_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user_center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user_list.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v717/React-项目实战-代码/最新代码_one" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -54,7 +78,7 @@
       <workItem from="1547446550941" duration="1990000" />
       <workItem from="1547464849355" duration="134000" />
       <workItem from="1551921942309" duration="736000" />
-      <workItem from="1572323104563" duration="13963000" />
+      <workItem from="1572323104563" duration="15570000" />
     </task>
     <servers />
   </component>
