@@ -1,3 +1,3 @@
 require('babel-register');
-require('babel-cli')
+require('babel-preset-env');
 require('./src/app');
