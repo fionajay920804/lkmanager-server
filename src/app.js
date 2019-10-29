@@ -1,10 +1,10 @@
 import express from 'express';
 import config from './config';
 // 1.引入路由的文件
-// import indexRouter from './../routes/index';
-// import sowingRouter from './../routes/sowing';
-// import homeRouter from './../routes/home';
-// import userRouter from './../routes/user';
+import indexRouter from './../routes/index';
+import sowingRouter from './../routes/sowing';
+import homeRouter from './../routes/home';
+import userRouter from './../routes/user';
 import umiRouter from './../routes/umiProduct'
 
 // 引入中间件
@@ -32,19 +32,12 @@ app.use('/node_modules', express.static(config.node_modules));
 app.use(bodyParser);
 
 // 5. 挂载路由容器
-// app.use(indexRouter);
-// app.use(sowingRouter);
-// app.use(homeRouter);
-// app.use(userRouter);
+app.use(indexRouter);
+app.use(sowingRouter);
+app.use(homeRouter);
+app.use(userRouter);
 app.use(umiRouter);
 
 // 6. 挂载错误中间件
 app.use(errorLog);
-let port = process.env.PORT;
-if (port == null || port == "") {
-    port = 1688;
-}
-// app.listen(port);
-app.listen(1688, ()=>{
-    console.log('server is running');
-});
+app.listen((process.env.PORT || 1688), function(){ console.log('listening on *:5000'); });
