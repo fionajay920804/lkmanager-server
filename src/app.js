@@ -42,9 +42,9 @@ app.use(umiRouter);
 app.use(errorLog);
 let port = process.env.PORT;
 if (port == null || port == "") {
-    port = 8000;
+    port = 1688;
 }
 // app.listen(port);
-app.listen(port, ()=>{
+app.listen(1688, ()=>{
     console.log('server is running');
 });
