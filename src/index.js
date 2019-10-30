@@ -26,4 +26,4 @@ index.use(umiRouter);
 
 // 6. 挂载错误中间件
 index.use(errorLog);
-index.listen((process.env.PORT || 1689), function(){ console.log('listening on *:5000'); })
+index.listen((process.env.PORT || 1688), function(){ console.log('server is running'); })
